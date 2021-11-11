@@ -7,6 +7,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->menuBar(this);
+    ui->statusBar("Hop Hey!");
 }
 
 MainWindow::~MainWindow()
