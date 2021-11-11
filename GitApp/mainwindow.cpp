@@ -13,5 +13,6 @@ MainWindow::MainWindow(QWidget *parent) :
 MainWindow::~MainWindow()
 {
     ui->mainToolBar(this);
+    ui->statusBar("La La Ley!");
     delete ui;
 }
