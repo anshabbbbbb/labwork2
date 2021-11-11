@@ -7,10 +7,12 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->menuBar(this);
+    ui->statusBar("My name is Anna!");
 }
 
 MainWindow::~MainWindow()
 {
     ui->mainToolBar(this);
+    ui->statusBar("I learning use git!");
     delete ui;
 }
